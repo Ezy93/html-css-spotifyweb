@@ -7,3 +7,43 @@
 body{
     font-family: 'Circular Std', sans-serif;
 }
+
+footer{
+    height: 10vh;
+    background-color: aqua; /* da eliminare */
+}
+/* common class */
+.flex-row{
+    display: flex;
+}
+
+.width-perc-full{
+    width: 100%;
+}
+
+.view-height{
+    height: 90vh;
+}
+
+.row-height-perc{
+    height: 11.4%;
+}
+/* container class */
+.container-left{
+    background-color: blue; /* da togliere */
+    width: 15vw;
+}
+
+.container-right{
+    background-color: red; /* da togliere */
+    width: 85vw;
+}
+
+.logo{
+    background-color: greenyellow; /*  da togliere */
+}
+
+.container-btn{
+    background-color: blueviolet; /* da eliminare */
+}
+
