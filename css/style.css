@@ -26,6 +26,10 @@ nav.flex-column{
     justify-content: space-between;
 }
 
+h4.txt-white{
+        padding-top: 6%;
+}
+
 /* common class */
 .flex{
     display: flex;
@@ -51,12 +55,33 @@ nav.flex-column{
     height: 12%;
 }
 
+/* NON FUNZIONA PERCHE SI SPACCA IL CONTAINER ED ESCE TUTTO FUORI */
+.overflow{
+    overflow-y: auto;
+}
+
 .weight-seven{
     font-weight: 700;
 }
 
 .txt-upp{
     text-transform: uppercase;
+}
+
+.small-font{
+    font-size: .85rem;
+}
+
+.txt-white{
+    color: white;
+}
+
+.txt-grey{
+    color: #7b7b7b;
+}
+
+.icon-grey{
+    color: #a3a3a3;
 }
 
 .fa-home,
@@ -89,6 +114,15 @@ nav.flex-column{
     margin: 0 0 4% 6%;
 }
 
+.positioning{
+    padding-left: 4%;
+    margin-bottom: 4%;
+}
+
+.vertical-select-mark{
+    border-left: 3px solid greenyellow;
+}
+
 .line{
     width: 92%;
     border-bottom: 2px solid gray;
@@ -101,7 +135,7 @@ nav.flex-column{
 
 /* container class */
 .container-left{
-    background-color: blue; /* da togliere */
+    background-color: black; /* da togliere */
     width: 15vw;
 }
 
@@ -112,7 +146,7 @@ nav.flex-column{
 }
 
 .logo{
-    background-color: greenyellow; /*  da togliere */
+    background-color: rgb(0, 0, 0); /*  da togliere */
 }
 
 .container-btn{
