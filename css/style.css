@@ -38,6 +38,9 @@ nav.flex-column{
 h4.txt-upp{
     padding-top: 6%;
 }
+div.container-right{
+    overflow: auto;
+}
 
 div.container-right ul{
     list-style: none;
@@ -84,6 +87,10 @@ section.card-row{
 
 .top-title-margin{
     margin-top: 3%;
+}
+
+.top-subtitle-margin{
+    margin-top: .5%;
 }
 
 
