@@ -36,7 +36,15 @@ nav.flex-column{
 }
 
 h4.txt-white{
-        padding-top: 6%;
+    padding-top: 6%;
+}
+
+div.container-right ul{
+    list-style: none;
+}
+
+a.txt-upp{
+    text-decoration: none;
 }
 
 /* common class */
@@ -50,6 +58,18 @@ h4.txt-white{
 
 .items-center{
     align-items: center;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.center{
+    margin: 0 auto;
 }
 
 .width-perc-full{
@@ -101,6 +121,7 @@ h4.txt-white{
     font-size: 1.5rem;
 }
 
+
 .top-spacing-perc{
     margin-top: 6%;
     height: 52%;
@@ -139,7 +160,7 @@ h4.txt-white{
     padding-bottom: 3%;
 }
 
-.user-name{
+.top-padd{
     padding-top: 1%;
 }
 
@@ -150,7 +171,7 @@ h4.txt-white{
 }
 
 .container-right{
-    background-color: red; /* da togliere */
+    background-color: #141922;
     width: 85vw;
 
 }
@@ -160,6 +181,6 @@ h4.txt-white{
 }
 
 .container-btn{
-    background-color: rgba(10, 30, 40, .5); /* da eliminare */
+    background-color: rgba(0, 0, 0, .5); /* da eliminare */
 }
 
