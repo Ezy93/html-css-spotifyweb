@@ -56,6 +56,10 @@ a.txt-upp{
     flex-direction: column;
 }
 
+.wrapping{
+    flex-wrap: wrap;
+}
+
 .items-center{
     align-items: center;
 }
@@ -71,6 +75,12 @@ a.txt-upp{
 .center{
     margin: 0 auto;
 }
+
+.top-title-margin{
+    margin-top: 3%;
+}
+
+
 
 .width-perc-full{
     width: 100%;
@@ -121,15 +131,22 @@ a.txt-upp{
     font-size: 1.5rem;
 }
 
+.top-spacing-perc,
+div.title-album h4{
+    margin-top: 6%;
+}
+
+.card-row,
+.fa-plus-square{
+    margin-top: 2%;
+}
 
 .top-spacing-perc{
-    margin-top: 6%;
     height: 52%;
 }
 
 .fa-plus-square{
     font-size: 2.8rem;
-    margin-top: 2%;
 }
 
 .fa-home,
@@ -182,7 +199,10 @@ div.cover img{
 .container-right{
     background-color: #141922;
     width: 85vw;
+}
 
+.sub-container-main{
+    width: 97%;
 }
 
 .logo{
