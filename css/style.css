@@ -45,7 +45,13 @@ div.container-right ul{
 
 a.txt-upp{
     text-decoration: none;
+    font-size: .7rem;
 }
+
+section.card-row{
+    column-gap: 2%;
+}
+
 
 /* common class */
 .flex{
