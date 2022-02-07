@@ -38,6 +38,7 @@ nav.flex-column{
 h4.txt-upp{
     padding-top: 6%;
 }
+
 div.container-right{
     overflow: auto;
 }
@@ -52,7 +53,7 @@ a.txt-upp{
 }
 
 section.card-row{
-    column-gap: 2%;
+    column-gap: 4.5%;
 }
 
 
@@ -92,8 +93,6 @@ section.card-row{
 .top-subtitle-margin{
     margin-top: .5%;
 }
-
-
 
 .width-perc-full{
     width: 100%;
@@ -187,11 +186,19 @@ div.title-album h4{
 .line{
     width: 92%;
     border-bottom: 2px solid gray;
+}
+
+.bot-padd,
+.line{
     padding-bottom: 3%;
 }
 
 .top-padd{
     padding-top: 1%;
+}
+
+.circle{
+    border-radius: 50%;
 }
 
 div.card{
