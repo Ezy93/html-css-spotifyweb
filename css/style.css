@@ -85,8 +85,16 @@ section.card-row{
     justify-content: space-evenly;
 }
 
+.bigger-width{
+    width: 70%;
+}
+
 .half-width{
     width: 50%;
+}
+
+.smaller-width{
+    width: 36%;
 }
 
 .center{
@@ -217,7 +225,8 @@ div.title-album h4{
     border-radius: 50%;
 }
 
-.player-left{
+.player-left,
+.player-right{
     width: 15%;
 }
 
