@@ -301,3 +301,21 @@ div.cover img{
     background-color: rgba(0, 0, 0, .5); 
 }
 
+@media screen and (max-width: 992px){
+    section.card-row{
+        column-gap: 1.5%;
+    }
+
+    div.cover img{
+        height: 110px;
+    }
+
+    section.wrapping{
+        flex-wrap: nowrap;
+    }
+
+    nav.half-width{
+        width: 40%;
+    }
+    
+}
