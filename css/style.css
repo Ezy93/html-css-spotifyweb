@@ -32,6 +32,10 @@ div.useless p{
 
 nav.flex-column{
     height: 88%;
+}
+
+.content-between,
+nav.flex-column{
     justify-content: space-between;
 }
 
@@ -209,6 +213,10 @@ div.title-album h4{
     border-radius: 50%;
 }
 
+.player-left{
+    width: 15%;
+}
+
 div.card{
     width: 160px;
     text-align: center;
@@ -220,7 +228,7 @@ div.cover img{
 
 /* container class */
 .container-left{
-    background-color: black; /* da togliere */
+    background-color: black; 
     width: 15vw;
 }
 
@@ -234,10 +242,10 @@ div.cover img{
 }
 
 .logo{
-    background-color: rgb(0, 0, 0); /*  da togliere */
+    background-color: rgb(0, 0, 0); 
 }
 
 .container-btn{
-    background-color: rgba(0, 0, 0, .5); /* da eliminare */
+    background-color: rgba(0, 0, 0, .5); 
 }
 
