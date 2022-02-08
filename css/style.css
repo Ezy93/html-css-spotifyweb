@@ -9,12 +9,13 @@ body{
 }
 
 footer{
-    height: 10vh;
+    height: 80px;
     background-color: #282828;
 }
 
 main{
     overflow: hidden;
+    height: calc(100vh - 80px);
 }
 
 div.logo,
@@ -55,8 +56,8 @@ a.txt-upp{
     text-decoration: none;
 }
 
-section.card-row{
-    column-gap: 4.5%;
+div.card{
+    margin-right: 48px;
 }
 
 
@@ -302,17 +303,22 @@ div.cover img{
 }
 
 @media screen and (max-width: 992px){
-    section.card-row{
-        column-gap: 1.5%;
+    
+    div.card{
+        margin-right: 12px;
+        width: 110px;
     }
 
     div.cover img{
         height: 110px;
     }
 
-    section.wrapping{
-        flex-wrap: nowrap;
+    div.author,
+    div.title-album{
+        font-size: .8rem;
     }
+
+
 
     nav.half-width{
         width: 40%;
