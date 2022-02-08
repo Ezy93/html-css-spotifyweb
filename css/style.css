@@ -225,6 +225,10 @@ div.title-album h4{
     border-left: 3px solid greenyellow;
 }
 
+.bot-select-mark{
+    border: 1px solid greenyellow;
+}
+
 .line{
     width: 92%;
     border-bottom: 2px solid gray;
