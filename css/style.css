@@ -32,7 +32,11 @@ div.useless p{
 }
 
 nav.flex-column{
-    height: 88%;
+    height: 86%;
+}
+
+nav.top-padd{
+    width: 60%;
 }
 
 .content-between,
@@ -134,7 +138,7 @@ div.card{
     min-width: 230px;
 }
 
-/* NON FUNZIONA PERCHE SI SPACCA IL CONTAINER ED ESCE TUTTO FUORI */
+/* non funziona */
 .overflow{
     overflow-y: auto;
 }
@@ -214,8 +218,15 @@ div.title-album h4{
 }
 
 .multiple-margin{
-    margin: 0 0 4% 6%;
+    margin-bottom: 4%;
 }
+
+.reposition,
+.multiple-margin{
+    margin-left: 6%;
+}
+
+
 
 .positioning{
     padding-left: 4%;
@@ -303,7 +314,7 @@ div.cover img{
 }
 
 @media screen and (max-width: 992px){
-    
+
     div.card{
         margin-right: 12px;
         width: 110px;
@@ -318,10 +329,14 @@ div.cover img{
         font-size: .8rem;
     }
 
-
-
-    nav.half-width{
-        width: 40%;
+    ul.around,
+    nav.top-padd{
+        min-width: 600px;
     }
-    
+
+    div.reposition div.top-spacing-perc{
+        margin-bottom: 6%;
+    }
+
+
 }
