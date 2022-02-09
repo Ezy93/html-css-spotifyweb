@@ -324,17 +324,23 @@ div.cover img{
         font-size: .8rem;
     }
 
-    ul.around,
-    nav.top-padd{
+    ul.around{
         min-width: 600px;
     }
 
+
 }
+
+
 
 /* medium */
 @media screen and (max-width: 991.98px){
     div.card{
         width: calc(94% / 4);
+    }
+
+    nav.top-padd ul li{
+        padding: 0px 5px;
     }
 }
 
@@ -346,22 +352,32 @@ div.cover img{
     }
 
     .container-left{
-        width: 200px;
-        font-size: .rem; /* da rimpicciolire dopo */
-    }
-
-    .minum-width{
         min-width: 200px;
+        font-size: .8rem;
     }
 
-    ul.around{
-        width: 150%;
-        flex-wrap: wrap;
+    .fa-home, 
+    .fa-search, 
+    .fa-list, 
+    .fa-arrow-alt-circle-down, 
+    .fa-user-circle{
+        font-size: 1.2rem;
     }
+
+    nav.top-padd{
+        min-width: none;
+    }
+
+    nav.top-padd ul li{
+        padding: 0px 20px;
+    }
+
 
     div#icon-container{
         flex-direction: column;
+        margin-right: 2rem;
     }
+
 }
 
 /* extra small */
