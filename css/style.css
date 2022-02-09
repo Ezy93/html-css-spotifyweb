@@ -402,9 +402,21 @@ div.cover img{
     }
 
     img.multiple-margin,
-    nav.flex-column p{
+    nav.flex-column p,
+    nav.flex-column h4,
+    .fa-plus-square{
         display: none;
     }
+
+    .vertical-select-mark,
+    .line{
+        border: none;
+    }
+
+    .fa-arrow-alt-circle-down{
+        font-size: .8rem
+    }
+
 
     .hide{
         display: inline-block;
@@ -420,6 +432,10 @@ div.cover img{
         min-width: 55px;
     }
 
+    div.line{
+        justify-content: center;
+    }
+
     div.container-left > div.row-height-perc{
         height: auto;
         min-height: 33px;
@@ -428,7 +444,14 @@ div.cover img{
 
     nav.flex-column{
         height: 93%;
+        align-items: center;
     }
 
-    
+    nav.flex-column div i{
+        margin-top:8px;
+    }
+
+    #xs-query-margin{
+        margin-right: 9px;
+    }
 }
