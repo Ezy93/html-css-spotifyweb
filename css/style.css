@@ -74,6 +74,11 @@ div.smaller-width div.smaller-width{
 }
 
 /* common class */
+
+.circle-selector{
+
+}
+
 .flex{
     display: flex;
 }
@@ -353,11 +358,14 @@ div.player-left div.hover-w p:hover{
     text-decoration: underline;
 }
 
-
-
 .upgrade-btn:hover,
 i.hover-trans:hover{
     transform: scale(1.1);
+}
+
+div.evenly div.time-track:hover div,
+div.around div.time-track:hover div{
+    background-color: greenyellow;
 }
 
 
