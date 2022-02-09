@@ -13,7 +13,8 @@ footer{
     background-color: #282828;
 }
 
-main{
+main,
+div.container-left{
     height: calc(100vh - 80px);
 }
 
@@ -28,6 +29,10 @@ div.logo > img{
 
 div.useless p{
     margin: 7% 0 ;
+}
+
+div.container-left{
+    overflow-y: hidden;
 }
 
 nav.flex-column{
@@ -117,9 +122,6 @@ a.txt-upp{
     width: 100%;
 }
 
-.view-height{
-    height: 90vh;
-}
 
 .row-height-perc{
     height: 12%;
@@ -210,6 +212,10 @@ div.title-album h4{
 .fa-arrow-alt-circle-down,
 .fa-user-circle{
     margin-right: 3%;
+}
+
+.right-m{
+    margin-right: 1rem;
 }
 
 .multiple-margin{
@@ -309,7 +315,8 @@ div.cover img{
     background-color: rgba(0, 0, 0, .5); 
 }
 
-@media screen and (max-width: 992px){
+/* large */
+@media screen and (max-width: 1199.98px){
 
 
     div.author,
@@ -322,11 +329,42 @@ div.cover img{
         min-width: 600px;
     }
 
-    div.reposition div.top-spacing-perc{
-        margin-bottom: 6%;
+}
+
+/* medium */
+@media screen and (max-width: 991.98px){
+    div.card{
+        width: calc(94% / 4);
     }
 }
 
-@media screen and (max-width: 768px){
-    
+/* small */
+@media screen and (max-width: 767.98px){
+    div.card{
+        width: calc(94% / 2);
+        margin-bottom: .7rem;
+    }
+
+    .container-left{
+        width: 200px;
+        font-size: .rem; /* da rimpicciolire dopo */
+    }
+
+    .minum-width{
+        min-width: 200px;
+    }
+
+    ul.around{
+        width: 150%;
+        flex-wrap: wrap;
+    }
+
+    div#icon-container{
+        flex-direction: column;
+    }
+}
+
+/* extra small */
+@media screen and (max-width: 575.98px){
+
 }
