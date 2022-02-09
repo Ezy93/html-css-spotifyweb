@@ -14,7 +14,6 @@ footer{
 }
 
 main{
-    overflow: hidden;
     height: calc(100vh - 80px);
 }
 
@@ -49,7 +48,8 @@ h4.txt-upp{
 }
 
 div.container-right{
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 div.container-right ul{
@@ -59,11 +59,6 @@ div.container-right ul{
 a.txt-upp{
     text-decoration: none;
 }
-
-div.card{
-    margin-right: 48px;
-}
-
 
 /* common class */
 .flex{
@@ -280,12 +275,13 @@ div.time-track div{
 }
 
 div.card{
-    width: 160px;
+    width: calc(94% / 6);
     text-align: center;
+    margin-right: .5rem;
 }
 
 div.cover img{
-    height: 160px;
+    width: 100%;
 }
 
 /* container class */
@@ -315,14 +311,6 @@ div.cover img{
 
 @media screen and (max-width: 992px){
 
-    div.card{
-        margin-right: 12px;
-        width: 110px;
-    }
-
-    div.cover img{
-        height: 110px;
-    }
 
     div.author,
     div.title-album{
@@ -337,6 +325,8 @@ div.cover img{
     div.reposition div.top-spacing-perc{
         margin-bottom: 6%;
     }
+}
 
-
+@media screen and (max-width: 768px){
+    
 }
