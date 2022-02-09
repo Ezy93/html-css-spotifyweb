@@ -335,11 +335,31 @@ div.cover i.fa-play-circle{
     font-size: 3rem;
 }
 
+
+/* HOVER EFFECTS */
+
 div.cover:hover i.fa-play-circle{
     display: inline-block;
 }
 
-/* HOVER EFFECTS */
+nav.top-padd a:hover,
+.fa-heart:hover,
+.fa-folder:hover,
+div.player-left div.hover-w p:hover{
+    color: white;
+}
+
+div.player-left div.hover-w p:hover{
+    text-decoration: underline;
+}
+
+
+
+.upgrade-btn:hover,
+i.hover-trans:hover{
+    transform: scale(1.1);
+}
+
 
 
 
