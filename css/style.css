@@ -65,6 +65,10 @@ a.txt-upp{
     text-decoration: none;
 }
 
+div.smaller-width div.smaller-width{
+    min-width: 200px;
+}
+
 /* common class */
 .flex{
     display: flex;
@@ -92,6 +96,10 @@ a.txt-upp{
 
 .end{
     justify-content: flex-end;
+}
+
+.hide{
+    display: none;
 }
 
 .bigger-width{
@@ -366,6 +374,9 @@ div.cover img{
 
     nav.top-padd{
         min-width: none;
+        width: 78%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     nav.top-padd ul li{
@@ -378,9 +389,46 @@ div.cover img{
         margin-right: 2rem;
     }
 
+    footer div.player-right{
+        min-width: 180px;
+    }
+
 }
 
 /* extra small */
 @media screen and (max-width: 575.98px){
+    footer div.minum-width{
+        min-width: 180px;
+    }
 
+    img.multiple-margin,
+    nav.flex-column p{
+        display: none;
+    }
+
+    .hide{
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .container-right{
+        width: calc(100vw - 55px);
+    }
+
+    .container-left{
+        width: 55px;
+        min-width: 55px;
+    }
+
+    div.container-left > div.row-height-perc{
+        height: auto;
+        min-height: 33px;
+        margin-top: 5px;
+    }
+
+    nav.flex-column{
+        height: 93%;
+    }
+
+    
 }
