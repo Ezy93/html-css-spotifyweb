@@ -57,6 +57,10 @@ div.container-right{
     overflow-x: hidden;
 }
 
+div.cover{
+    position: relative;
+}
+
 div.container-right ul{
     list-style: none;
 }
@@ -321,7 +325,23 @@ div.cover img{
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, .5); 
+    z-index: 2;
 }
+
+div.cover i.fa-play-circle{
+    position: absolute;
+    left: 39%;
+    top: 36%;
+    font-size: 3rem;
+}
+
+div.cover:hover i.fa-play-circle{
+    display: inline-block;
+}
+
+/* HOVER EFFECTS */
+
+
 
 /* large */
 @media screen and (max-width: 1199.98px){
@@ -400,6 +420,9 @@ div.cover img{
     footer div.minum-width{
         min-width: 180px;
     }
+    main{
+        overflow-x: none;
+    }
 
     img.multiple-margin,
     nav.flex-column p,
@@ -418,7 +441,7 @@ div.cover img{
     }
 
 
-    .hide{
+    img.hide{
         display: inline-block;
         margin: 0 auto;
     }
