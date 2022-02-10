@@ -75,8 +75,8 @@ div.smaller-width div.smaller-width{
 
 /* common class */
 
-.circle-selector{
-
+.relative{
+    position: relative;
 }
 
 .flex{
@@ -333,6 +333,24 @@ div.cover img{
     z-index: 2;
 }
 
+.ball-track{
+    height: 100%;
+    left: 27%;
+}
+
+.ball-sound{
+    height: 13.6px;
+    left: 38%;
+}
+
+.ball-sound,
+.ball-track{
+    background-color: white;
+    width: 13.6px;
+    position: absolute;
+    border-radius: 50%;
+}
+
 div.cover i.fa-play-circle{
     position: absolute;
     left: 39%;
@@ -366,6 +384,11 @@ i.hover-trans:hover{
 div.evenly div.time-track:hover div,
 div.around div.time-track:hover div{
     background-color: greenyellow;
+}
+
+div.evenly:hover div.ball-track,
+div.around:hover div.ball-sound{
+    display: block;
 }
 
 
